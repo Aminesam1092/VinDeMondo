@@ -1,0 +1,57 @@
+.Header {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'PT_Serif';
+    border-bottom: solid 0.5px rgb(187, 187, 187);
+    background-color: white;
+    &__Nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    &__Logo {
+      width: 15%;
+      margin-right: auto;
+    }
+    &__Ul {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 15px;
+    }
+    &__Account {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    &__AcList {
+      width: 100px;
+      height: 25px;
+      border: solid 1px rgb(113, 0, 79);
+      text-align: center;
+      line-height: 20px;
+      &:hover {
+        background-color: rgb(113, 0, 79);
+        box-shadow: 0px 0px 5px rgb(113, 0, 79);
+      }
+    }
+    &__Acimage {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0px 0px 5px rgb(113, 0, 79);
+      }
+    }
+    &__Painting {
+      width: 100px;
+      height: 25px;
+      &:hover {
+        color: white;
+      }
+    }
+  }

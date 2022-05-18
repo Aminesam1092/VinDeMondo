@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'VinDeMondo',
+    title: 'VinDeMondo : Redwine、Whitewine、Sparkling、',
     htmlAttrs: {
       lang: 'ja'
     },
@@ -21,8 +21,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/basecss/base.css',
-    '@/assets/basecss/font.css',
+    '@/assets/scss/base/base.scss',
+    '@/assets/scss/base/reset.scss',
+    '@/assets/scss/mixin/font.scss',
+    '@/assets/scss/mixin/animation.scss',
+    '@/assets/scss/mixin/header.scss',
+    '@/assets/scss/mixin/footer.scss',
+    '@/assets/scss/mixin/dark.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -4,10 +4,10 @@
 </template>
 <style scoped>
   div {
-    background-color: red;
-    width: 400px;
+    background-color: rgb(170, 170, 170);
+    width: 1260px;
     height: 500px;
-    margin: 10px;
+    margin: 10px auto;
   }
 
 </style>
