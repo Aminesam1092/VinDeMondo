@@ -10,4 +10,7 @@
     &__HeadingText {
       font-size: clamp(24px, calc(0.7407407407vw + 21.3333333333px), 32px);
     }
+    &__List{
+      font-size: clamp(14px, calc(0.7407407407vw + 21.3333333333px), 16px);
+    }
   }

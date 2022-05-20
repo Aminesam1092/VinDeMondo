@@ -28,6 +28,7 @@ export default {
     '@/assets/scss/mixin/header.scss',
     '@/assets/scss/mixin/footer.scss',
     '@/assets/scss/mixin/dark.scss',
+    '@/assets/scss/config/config.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
