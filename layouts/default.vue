@@ -41,24 +41,106 @@
       <Nuxt />
       <footer class="Footer">
         <section class="Footer__LinkConteiner">
-          <h2 class="Footer__HeadingText">
-            Vin de Mondo. Access the Now.
-          </h2>
           <div class="Footer__TextConteiner">
+            <h2 class="Footer__HeadingText">
+              Vin de Mondo. Access the Now.
+            </h2>
             <div class="Footer__Productiintruduction">
-              <p class="Footer__Productiin">Product Search</p>
-              <ul class="Footer__ProductionConteiner">
-                <li class="Footer__List"><n-link class="CC" to="#">Red wine</n-link></li>
-                <li class="Footer__List"><n-link class="CC" to="#">Sparkling wine</n-link></li>
-                <li class="Footer__List">List of Production</li>
-                <li class="Footer__List">Areas</li>
-                <li class="Footer__List">List of producers</li>
-                <li class="Footer__List">Variety list</li>
-                <li class="Footer__List">Special feature list</li>
-                <li class="Footer__List">Wine set</li>
-                <li class="Footer__List">Wine goods</li>
-                <li class="Footer__List">wine cellar</li>
-              </ul>
+              <nav class="Footer__Gnav">
+                <p class="Footer__Productiin">Product Search</p>
+                <ul class="Footer__ProductionConteiner">
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Red wine</n-link>
+                  </li>
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Sparkling wine</n-link>
+                  </li>
+                  <li class="Footer__List">List of Production</li>
+                  <li class="Footer__List">Areas</li>
+                  <li class="Footer__List">List of producers</li>
+                  <li class="Footer__List">Variety list</li>
+                  <li class="Footer__List">Special feature list</li>
+                  <li class="Footer__List">Wine set</li>
+                  <li class="Footer__List">Wine goods</li>
+                  <li class="Footer__List">wine cellar</li>
+                </ul>
+              </nav>
+              <nav class="Footer__Gnav">
+                <p class="Footer__Productiin">Product Search</p>
+                <ul class="Footer__ProductionConteiner">
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Red wine</n-link>
+                  </li>
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Sparkling wine</n-link>
+                  </li>
+                  <li class="Footer__List">List of Production</li>
+                  <li class="Footer__List">Areas</li>
+                  <li class="Footer__List">List of producers</li>
+                  <li class="Footer__List">Variety list</li>
+                  <li class="Footer__List">Special feature list</li>
+                  <li class="Footer__List">Wine set</li>
+                  <li class="Footer__List">Wine goods</li>
+                  <li class="Footer__List">wine cellar</li>
+                </ul>
+              </nav>
+              <nav class="Footer__Gnav">
+                <p class="Footer__Productiin">Product Search</p>
+                <ul class="Footer__ProductionConteiner">
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Red wine</n-link>
+                  </li>
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Sparkling wine</n-link>
+                  </li>
+                  <li class="Footer__List">List of Production</li>
+                  <li class="Footer__List">Areas</li>
+                  <li class="Footer__List">List of producers</li>
+                  <li class="Footer__List">Variety list</li>
+                  <li class="Footer__List">Special feature list</li>
+                  <li class="Footer__List">Wine set</li>
+                  <li class="Footer__List">Wine goods</li>
+                  <li class="Footer__List">wine cellar</li>
+                </ul>
+              </nav>
+              <nav class="Footer__Gnav">
+                <p class="Footer__Productiin">Product Search</p>
+                <ul class="Footer__ProductionConteiner">
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Red wine</n-link>
+                  </li>
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Sparkling wine</n-link>
+                  </li>
+                  <li class="Footer__List">List of Production</li>
+                  <li class="Footer__List">Areas</li>
+                  <li class="Footer__List">List of producers</li>
+                  <li class="Footer__List">Variety list</li>
+                  <li class="Footer__List">Special feature list</li>
+                  <li class="Footer__List">Wine set</li>
+                  <li class="Footer__List">Wine goods</li>
+                  <li class="Footer__List">wine cellar</li>
+                </ul>
+              </nav>
+              <nav class="Footer__Gnav">
+                <p class="Footer__Productiin">Product Search</p>
+                <ul class="Footer__ProductionConteiner">
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Red wine</n-link>
+                  </li>
+                  <li class="Footer__List">
+                    <n-link class="CC" to="#">Sparkling wine</n-link>
+                  </li>
+                  <li class="Footer__List">List of Production</li>
+                  <li class="Footer__List">Areas</li>
+                  <li class="Footer__List">List of producers</li>
+                  <li class="Footer__List">Variety list</li>
+                  <li class="Footer__List">Special feature list</li>
+                  <li class="Footer__List">Wine set</li>
+                  <li class="Footer__List">Wine goods</li>
+                  <li class="Footer__List">wine cellar</li>
+                </ul>
+              </nav>
             </div>
           </div>
         </section>
@@ -67,11 +149,12 @@
   </div>
 </template>
 <style lang="scss">
-    .Main__Primary {
+  .Main__Primary {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
+
 </style>
 
 <script>
