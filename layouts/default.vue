@@ -48,21 +48,16 @@
             <div class="Footer__Productiintruduction">
               <nav class="Footer__Gnav">
                 <p class="Footer__Productiin">Product Search</p>
-                <ul class="Footer__ProductionConteiner">
-                  <li class="Footer__List">
-                    <n-link class="CC" to="#">Red wine</n-link>
+                <ul id="example-1">
+                  <li v-for="item in items" :key="item.message">
+                    {{ item.message }}
+                    {{ item.message }}
+                    {{ item.message }}
+                    {{ item.message }}
+                    {{ item.message }}
+                    {{ item.message }}
+                    {{ item.message }}
                   </li>
-                  <li class="Footer__List">
-                    <n-link class="CC" to="#">Sparkling wine</n-link>
-                  </li>
-                  <li class="Footer__List">List of Production</li>
-                  <li class="Footer__List">Areas</li>
-                  <li class="Footer__List">List of producers</li>
-                  <li class="Footer__List">Variety list</li>
-                  <li class="Footer__List">Special feature list</li>
-                  <li class="Footer__List">Wine set</li>
-                  <li class="Footer__List">Wine goods</li>
-                  <li class="Footer__List">wine cellar</li>
                 </ul>
               </nav>
               <nav class="Footer__Gnav">
@@ -159,6 +154,7 @@
 
 <script>
   export default {
+    
     data() {
       return {
         img1: 'Logo',
@@ -166,6 +162,6 @@
         img3: 'account'
       }
     }
+    
   }
-
 </script>
