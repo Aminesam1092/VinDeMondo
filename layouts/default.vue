@@ -153,8 +153,16 @@
 </style>
 
 <script>
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    items: [
+      { message: 'Foo' },
+      { message: 'Bar' }
+    ]
+  }
+})
   export default {
-    
     data() {
       return {
         img1: 'Logo',
@@ -162,6 +170,5 @@
         img3: 'account'
       }
     }
-    
   }
 </script>
