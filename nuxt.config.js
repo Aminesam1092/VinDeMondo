@@ -25,8 +25,6 @@ export default {
     '@/assets/scss/base/reset.scss',
     '@/assets/scss/mixin/font.scss',
     '@/assets/scss/mixin/animation.scss',
-    '@/assets/scss/mixin/header.scss',
-    '@/assets/scss/mixin/footer.scss',
     '@/assets/scss/mixin/dark.scss',
     '@/assets/scss/config/config.scss',
   ],
