@@ -1,7 +1,9 @@
 <template>
   <div>
     <main class="Main__Primary">
+      <HeaderMenu></HeaderMenu>
       <Nuxt />
+       <FooterMenu></FooterMenu>
     </main>
   </div>
 </template>
@@ -15,16 +17,11 @@
 
 <script>
 import HeaderMenu from '@/components/HeaderMenu.vue'
+import FooterMenu from '@/components/FooterMenu.vue'
   export default {
     components: {
-    HeaderMenu
-  },
-    data() {
-      return {
-        img1: 'Logo',
-        img2: 'Logo2',
-        img3: 'account',
-      }
-    }
+    HeaderMenu,
+    FooterMenu
+},
   }
 </script>

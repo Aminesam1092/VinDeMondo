@@ -34,6 +34,7 @@
                 Sign In</n-link>
             </li>
           </ul>
+           <div class="Header__Acimage"><img v-bind:src="require(`@/assets/Images/svg/${img4}.svg`)" alt=""></div>
           <div class="Header__Acimage"><img v-bind:src="require(`@/assets/Images/svg/${img3}.webp`)" alt=""></div>
         </nav>
       </header>
@@ -48,6 +49,8 @@
     font-family: 'PT_Serif';
     border-bottom: solid 0.5px rgb(187, 187, 187);
     background-color: white;
+    position: fixed;
+     box-shadow: 0px 0px 10px rgb(91, 91, 91);
     &__Nav {
       display: flex;
       justify-content: center;
@@ -84,11 +87,7 @@
     &__Acimage {
       width: 30px;
       height: 30px;
-      border-radius: 50%;
       cursor: pointer;
-      &:hover {
-        box-shadow: 0px 0px 5px rgb(113, 0, 79);
-      }
     }
     &__Painting {
       width: 100px;
@@ -102,5 +101,13 @@
 <script>
   export default{
     name: 'HeaderMenu',
+        data() {
+      return {
+        img1: 'Logo',
+        img2: 'Logo2',
+        img3: 'account',
+        img4:  'ca-to',
+      }
+    }
   }
 </script>
