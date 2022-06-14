@@ -5,15 +5,15 @@
           <div class="Header__Logo"><img v-bind:src="require(`@/assets/Images/svg/${img1}.svg`)" alt=""></div>
           <ul class="Header__Ul">
             <li class="Header__List">
-              <n-link to="/">VARIETAL</n-link>
+              <n-link to="/">PRODUCTIONAREA</n-link>
             </li>
             <li class="Header__List">
-              <n-link to="/Second">
-                REGION</n-link>
+              <n-link to="/Red">
+                RED WINE</n-link>
             </li>
             <li class="Header__List">
-              <n-link to="/Second">
-                PRODUCTIONAREA</n-link>
+              <n-link to="/White">
+                WHITE WINE</n-link>
             </li>
             <li class="Header__List">
               <n-link to="#">
@@ -34,7 +34,7 @@
                 Sign In</n-link>
             </li>
           </ul>
-           <div class="Header__Acimage"><img v-bind:src="require(`@/assets/Images/svg/${img4}.svg`)" alt=""></div>
+           <div class="Header__Acimage"><n-link to="/Cart"><img v-bind:src="require(`@/assets/Images/svg/${img4}.svg`)" alt=""></n-link></div>
           <div class="Header__Acimage"><img v-bind:src="require(`@/assets/Images/svg/${img3}.webp`)" alt=""></div>
         </nav>
       </header>
